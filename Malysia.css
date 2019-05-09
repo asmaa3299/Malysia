@@ -1,0 +1,471 @@
+*
+{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* start of the NavBar */
+ 
+/*---------------------  navbar --------------------- */
+.navbar{
+
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	height: 100px;
+  	
+}
+.navbar:hover{
+	background: rgba(0,0,0,0.5);
+	
+}
+.navbar ul 
+{
+  list-style: none;
+  float: right;	
+  	
+}
+.navbar li{
+  float: left;
+	
+ 
+  
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span
+{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+
+nav h1
+{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+
+
+/*----------------------- logo -------------------*/
+  
+.logo
+{
+  position: relative;
+  left: 30px;
+  top: 8px;
+}
+.logo span
+{
+  position: relative;
+  top: 10px;
+}
+.logo span i{
+  font-size: 50px;
+  color: white;
+}
+
+/* End of the navbar */
+/* Malaysia */
+/* intro to the page */
+.banner{
+    background-image: url(images/header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.malhed {
+    color:  #6F8CA5;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    font-size: 70px;
+    text-align: center;
+	font-family: 'Do Hyeon';
+}
+.body2
+{
+    background: #EEF1F8;
+}
+.buttonedit button
+{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #F6755F;
+    box-shadow: 10px 10px rgba(10,25,20,0.4);
+	margin-left:630px;
+	font-size: 14px;
+	
+	
+	text-align: center;
+}
+.dropdown1{
+     position: relative;
+    display: inline-block;
+	text-align: center;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+	margin-left: 630px;
+}
+.dropdown-content1 a {
+    color: #6F8CA5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Gaegu';
+	text-align: center;
+    
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+    
+}
+.kuala:hover{
+    background: #D9CCBE
+}
+.george:hover{
+    background: #D9CCBE
+}
+.malaca:hover{
+    background: #D9CCBE
+}
+/* End pf the intro */
+/* start of the container */
+.container
+{
+    padding: 10px;
+    text-align: center;
+
+   
+}
+#journey
+{
+    font-size: 36px;
+    font-family: 'Gamja Flower';
+   
+}
+#information
+{
+    font-size: 16px;
+}
+.kualaLumpur
+{
+    
+    display: flex;
+}
+.pic1
+{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+	
+     
+}
+/*  to edit the middle images in malysia */
+/* Malaysia */
+/* intro to the page */
+.banner{
+    background-image: url(images/header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1365px;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+	
+    
+    
+}
+
+.banner .malhed h1
+{
+    color:  #6F8CA5;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    font-size: 70px;
+    font-family: 'Do Hyeon';
+	text-align: center;
+}
+
+body{
+     padding: 0;
+     margin: 0;
+     
+}
+.body2
+{
+    background: #EEF1F8;
+}
+.button1
+{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #F6755F;
+    box-shadow: 10px 10px rgba(10,25,20,0.4);
+    font-size: 14px;
+}
+.dropdown1{
+     position: relative;
+    display: inline-block;
+}
+.dropdown-content1{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.dropdown-content1 a {
+    color: #6F8CA5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: 'Gaegu';
+    
+}
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+    
+}
+.kuala:hover{
+    background: #D9CCBE
+}
+.george:hover{
+    background: #D9CCBE
+}
+.malaca:hover{
+    background: #D9CCBE
+}
+/* End pf the intro */
+/* start of the container */
+.container
+{
+    padding: 10px;
+    text-align: center;
+
+   
+}
+#journey
+{
+    font-size: 36px;
+    font-family: 'Gamja Flower';
+   
+}
+#information
+{
+    font-size: 16px;
+}
+.kualaLumpur
+{
+    
+    display: flex;
+}
+.pic1
+{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+     
+}
+.contain {
+    position: relative;
+    width: 50%;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.contain:hover .pic1{
+  opacity: 0.2;
+}
+
+.contain:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-size: 20px;
+  color: blueviolet;
+  font-family: 'Crafty Girls'
+}
+
+
+.GeorgeTown
+{
+   
+    display: flex;
+}
+.Malacca
+{
+    display: flex;
+}
+.pic2
+{
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.contain:hover .pic2
+{
+    opacity: 0.2;
+}
+
+
+.about
+{
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Gloria Hallelujah';
+    
+}
+.container pre
+{ 
+     font-size: 18px;
+     padding: 20px;
+     font-family: 'Exo';
+}
+.IT
+{
+    font-size: 18px;
+     padding: 20px;
+     font-family: 'Exo';
+}
+section
+{
+     
+     width: 960px;
+     margin: 80px;
+}
+/* class of h4 */
+.First
+{
+     padding: 20px;
+     font-family: 'Cute Font';
+     font-size: 30px;
+}
+/* class of h5 */
+
+.second
+{
+     padding: 20px;
+     font-family: 'Gamja Flower';
+     font-size: 26px
+}
+/* End of Malaysia */
+
+
+.icons
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#icons
+{
+    padding: 10px;
+}
+.fa
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background-color: #3A589E;
+    color: white;
+    
+  
+}
+.fa-twitter
+{
+    background-color: #5FA8DC;
+     color: white;
+   
+}
+.fa-instagram
+{
+   background-color: #D23095;
+     color: white;
+   
+}
+
+footer
+{
+    color: #5a5c51;
+    text-align: center;
+    font-size: 18px;
+}
+.footer
+{
+    background-color: ;
+}
